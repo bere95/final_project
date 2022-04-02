@@ -1,0 +1,146 @@
+body {
+    background-image: url("/images/bkg.jpg");
+    background-size: cover ;
+    font-family: 'Hurricane', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+/* font-family: 'Red Hat Mono', monospace; */
+    font-weight: 600;
+
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgba(153, 90, 8, 0.363) ;
+    height: 150px;
+    width: 100%;
+    
+
+    
+
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Hurricane', cursive; 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Red Hat Mono', monospace; 
+    text-decoration:overline 
+}
+
+
+
+.logo {
+    width: 150px;
+    height: 150px;
+    
+}
+
+a:hover {
+
+    color: beige;
+    text-decoration:underline ;
+
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+    color:rgb(0, 0, 0)
+    
+}
+
+
+
+
+
+
+li {
+    display: inline;
+    padding: 15px;
+}
+
+section {
+    border-width: 5px;
+    border-style:double;
+    border-radius: 5px;
+    float: right;
+    margin-top: 50px;
+    width: 50%;
+    background-color: rgba(153, 90, 8, 0.411) ;
+}
+
+main {
+    width: 100%;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.fheader{
+    font-size: 25px;
+}
+
+.fa-brands {
+
+    padding: 15px;
+    font-size: 30px;
+    
+
+}
+
+aside {
+
+    border-width: 5px;
+    border-style:double;
+    border-radius: 5px;
+    width: 35%;
+    background-color: rgba(153, 90, 8, 0.411) ;
+    float: left;
+   height: 250px;
+   margin-top: -105px;
+
+    
+
+    
+}
+
+.row {
+    text-align: center;
+}
+
+
+input {
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+form {
+    text-align: center;
+}
+
+
+textarea {
+    text-align: center;
+
+}
+
+.cocktail {
+    width:75% ; 
+    padding-left: 80px;
+
+}
+
+p {
+    text-align: center;
+}
